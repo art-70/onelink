@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
   robots: 'index, follow',
-  ogSiteName: 'OneLink',
+  ogSiteName: 'YLink',
   ogLocale: 'en_us',
   twitterCard: 'summary',
 })

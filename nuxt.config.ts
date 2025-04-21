@@ -43,8 +43,8 @@ export default {
 
   site: {
     url: 'https://y-link.netlify.app',
-    name: 'OneLink',
-    description: 'Onelink is a link-in-bio tool, where the data lives in the URL.',
+    name: 'YLink',
+    description: 'yLink is a link-in-bio tool, where the data lives in the URL.',
   },
 
   experimental: {

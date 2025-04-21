@@ -23,9 +23,9 @@ onMounted(() => {
       if (data.value) {
         useSeoMeta({
           ogUrl: 'https://y-link.netlify.app/user',
-          title: `${data.value.name} - OneLink`,
-          ogTitle: `${data.value.name} - OneLink`,
-          twitterTitle: `${data.value.name} - OneLink`,
+          title: `${data.value.name} - YLink`,
+          ogTitle: `${data.value.name} - YLink`,
+          twitterTitle: `${data.value.name} - YLink`,
           description: data.value.desc,
           ogDescription: data.value.desc,
           twitterDescription: data.value.desc,

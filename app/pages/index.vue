@@ -130,7 +130,7 @@
         </button>
         <a
           class="btn"
-          href="https://github.com/fayazara/onelink"
+          href="https://github.com/art-70/yLink"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -139,11 +139,11 @@
         </a>
         <a
           class="btn"
-          href="https://twitter.com/fayazara"
+          href="https://github.com/fayazara/onelink"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span class="sr-only md:not-sr-only"> Made by Fayaz </span>
+          <span class="sr-only md:not-sr-only"> Copied from OneLink </span>
           <icon name="mdi:github" size="24" />
         </a>
       </div>
@@ -159,12 +159,12 @@ import type { Data } from '../types'
 
 useSeoMeta({
   ogUrl: 'https://y-link.netlify.app/',
-  title: 'OneLink - no-login link-in-bio',
-  ogTitle: 'OneLink - no-login link-in-bio',
-  twitterTitle: 'OneLink - no-login link-in-bio',
-  description: 'Onelink is a link-in-bio tool, where the data lives in the URL.',
-  ogDescription: 'Onelink is a link-in-bio tool, where the data lives in the URL.',
-  twitterDescription: 'Onelink is a link-in-bio tool, where the data lives in the URL.',
+  title: 'YLink - no-login link-in-bio',
+  ogTitle: 'YLink - no-login link-in-bio',
+  twitterTitle: 'YLink - no-login link-in-bio',
+  description: 'yLink is a link-in-bio tool, where the data lives in the URL.',
+  ogDescription: 'yLink is a link-in-bio tool, where the data lives in the URL.',
+  twitterDescription: 'yLink is a link-in-bio tool, where the data lives in the URL.',
 })
 
 useHead({
