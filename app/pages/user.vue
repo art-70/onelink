@@ -22,7 +22,7 @@ onMounted(() => {
       data.value = decodeData(acc)
       if (data.value) {
         useSeoMeta({
-          ogUrl: 'https://onelink-nu.vercel.app/user',
+          ogUrl: 'https://y-link.netlify.app/user',
           title: `${data.value.name} - OneLink`,
           ogTitle: `${data.value.name} - OneLink`,
           twitterTitle: `${data.value.name} - OneLink`,

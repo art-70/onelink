@@ -158,7 +158,7 @@ import { encodeData, generateId } from '../utils'
 import type { Data } from '../types'
 
 useSeoMeta({
-  ogUrl: 'https://onelink-nu.vercel.app/',
+  ogUrl: 'https://y-link.netlify.app/',
   title: 'OneLink - no-login link-in-bio',
   ogTitle: 'OneLink - no-login link-in-bio',
   twitterTitle: 'OneLink - no-login link-in-bio',
@@ -168,7 +168,7 @@ useSeoMeta({
 })
 
 useHead({
-  link: [{ rel: 'canonical', href: 'https://onelink-nu.vercel.app/' }],
+  link: [{ rel: 'canonical', href: 'https://y-link.netlify.app/' }],
 })
 
 // Reactive data

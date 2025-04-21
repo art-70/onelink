@@ -1,4 +1,4 @@
-import {Base64} from 'js-base64';
+import { Base64 } from 'js-base64'
 import type { Data } from '@/types'
 
 export const encodeData = (obj: Data): string => {

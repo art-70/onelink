@@ -12,7 +12,8 @@
   *,
   *::before,
   *::after {
-    @apply border-gray-400 transition duration-150 ease-initial;
+    @apply border-gray-400 transition duration-150;
+    transition-timing-function: ease;
     scrollbar-width: thin; /* firefox scollbar */
   }
   body {

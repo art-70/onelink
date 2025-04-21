@@ -10,6 +10,7 @@
     "start": "nr format && cls && nr dev"
   },
   "dependencies": {
+    "@nuxtjs/seo": "3.0.3",
     "@vueuse/core": "^13.1.0",
     "js-base64": "^3.7.7",
     "nuxt": "^3.16.2",
@@ -21,7 +22,6 @@
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/simple-icons": "^1.2.31",
     "@nuxt/icon": "^1.12.0",
-    "@nuxtjs/fontaine": "0.5.0",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/vite": "latest",
     "@vueuse/nuxt": "13.1.0",
@@ -31,6 +31,6 @@
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "latest"
   },
-  "license": "MIT",
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "pnpm@10.8.1",
+  "license": "MIT"
 }
