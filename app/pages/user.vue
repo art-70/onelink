@@ -15,6 +15,24 @@ const route = useRoute()
 const param = route.query.data
 const data = ref<Data | null>(null)
 
+useSeoMeta({
+  ogUrl: 'https://y-link.netlify.app/',
+  title: 'User - yLink',
+  ogTitle: 'User - yLink',
+  twitterTitle: 'User - yLink',
+  description: "User's profile on yLink, where the data is living in the URL.",
+  ogDescription: "User's profile on yLink, where the data is living in the URL.",
+  twitterDescription: "User's profile on yLink, where the data is living in the URL.",
+})
+useHead({
+  link: [{ rel: 'canonical', href: 'https://y-link.netlify.app/' }],
+})
+defineOgImageComponent('pergel', {
+  headline: 'yLink',
+  title: 'User',
+  description: "User's profile on yLink, where the data is living in the URL.",
+})
+
 onMounted(() => {
   const acc = Array.isArray(param) ? param[0] : param
   if (acc && typeof acc === 'string') {

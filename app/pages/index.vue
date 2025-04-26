@@ -166,9 +166,13 @@ useSeoMeta({
   ogDescription: 'yLink is a link-in-bio tool, where the data lives in the URL.',
   twitterDescription: 'yLink is a link-in-bio tool, where the data lives in the URL.',
 })
-
 useHead({
   link: [{ rel: 'canonical', href: 'https://y-link.netlify.app/' }],
+})
+defineOgImageComponent('pergel', {
+  headline: '',
+  title: 'yLink',
+  description: 'yLink is a link-in-bio tool, where the data lives in the URL.',
 })
 
 // Reactive data

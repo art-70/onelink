@@ -5,8 +5,7 @@
 @custom-variant hover (&:hover);
 
 @theme {
-  --font-sans: 'Open Sans', Roboto, 'Segoe UI', 'sans-serif';
-  --font-mono: Monaco, Consolas, Courier New, monospace;
+  --font-sans: 'Inter', Roboto, 'Segoe UI', 'sans-serif';
 }
 @layer base {
   *,
@@ -23,11 +22,13 @@
     overflow-x: hidden;
     overflow-y: auto;
     font-style: normal;
+    font-stretch: 100%;
     font-family: var(--font-sans);
     font-optical-sizing: auto;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: gray-scale;
-    font-variation-settings: 'wdth' 100;
   }
   button {
     cursor: pointer;
